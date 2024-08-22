@@ -7,9 +7,9 @@ function showAlertSuccess() {
 
 // Función para mostrar la alerta de error
 function showAlertError() {
-    const errorAlert = document.getElementById('alert-danger');
-    errorAlert.classList.add('show');
-    setTimeout(() => errorAlert.classList.remove('show'), 4000); // Ocultar después de 4 segundos
+ const errorAlert = document.getElementById("alert-danger");
+ errorAlert.classList.add('show');
+setTimeout(() => errorAlert.classList.remove('show'), 4000); // Ocultar después de 4 segundos
 }
 
 // Función para validar el formulario
