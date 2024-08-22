@@ -1,5 +1,7 @@
 function showAlertSuccess() {
-    document.getElementById("alert-success").classList.add("show");
+    const successAlert = document.getElementById('alert-success');
+    successAlert.classList.add('show');
+    setTimeout(() => successAlert.classList.remove('show'), 4000); // Ocultar después de 4 segundos
 }
 
 function showAlertError() {
